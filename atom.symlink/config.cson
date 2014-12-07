@@ -36,3 +36,6 @@
     'viewedVersion': '0.89.0'
   'remote-edit':
     'showHiddenFiles': true
+  'tree-view':
+    'hideIgnoredNames': true
+    'hideVcsIgnoredFiles': true
