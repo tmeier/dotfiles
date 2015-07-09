@@ -1,38 +1,53 @@
-'global':
-  'editor':
-    'showIndentGuide': true
-    'fontFamily': 'Menlo'
-    'fontSize': 12
-    'invisibles': {}
-  'core':
-    'ignoredNames': [
-      '.bundle'
-      '.git'
-      'log'
-      'repositories'
-      'tmp'
-      'vendor'
+"*":
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 12
+    showIndentGuide: true
+    tabLength: 4
+    invisibles: {}
+  core:
+    ignoredNames: [
+      ".bundle"
+      ".git"
+      "log"
+      "repositories"
+      "tmp"
+      "vendor"
     ]
-    'themes': [
-      'atom-light-ui'
-      'atom-dark-syntax'
+    excludeVcsIgnoredPaths: false
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+      "linter-tidy"
+      "linter"
+      "merge-conflicts"
     ]
-    'hideGitIgnoredFiles': true
-    'disabledPackages': [
-      'background-tips'
-      'exception-reporting'
-      'metrics'
+    themes: [
+      "unity-ui"
+      "atom-dark-syntax"
     ]
-    'excludeVcsIgnoredPaths': false
-  'spell-check':
-    'grammars': [
-      'text.plain'
-      'source.gfm'
-      'text.git-commit'
+  "spell-check":
+    grammars: [
+      "text.plain"
+      "source.gfm"
+      "text.git-commit"
     ]
-  'welcome':
-    'showOnStartup': false
-  'release-notes':
-    'viewedVersion': '0.89.0'
-  'remote-edit':
-    'showHiddenFiles': true
+  welcome:
+    showOnStartup: false
+  "release-notes":
+    viewedVersion: "0.89.0"
+  "remote-edit":
+    showHiddenFiles: true
+  linter:
+    lintOnSave: false
+    lintOnChange: false
+    lintOnEditorFocus: false
+    showHighlighting: false
+    showGutters: false
+    showErrorInline: false
+  "linter-tidy":
+    tidyExecutablePath: "usr/bin/tidy"
+  "atom-beautify":
+    _analyticsUserId: "6fe7c5c7-8c61-4c6c-ac3b-a4bd3fe33475"
+  "terminal-status": {}
