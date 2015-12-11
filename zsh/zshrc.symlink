@@ -41,3 +41,5 @@ done
 unset config_files
 
 [ -s "/Users/tmeier/.k/kvm/kvm.sh" ] && . "/Users/tmeier/.k/kvm/kvm.sh" # Load kvm
+
+[ -s "/Users/tmeier/.dnx/dnvm/dnvm.sh" ] && . "/Users/tmeier/.dnx/dnvm/dnvm.sh" # Load dnvm
