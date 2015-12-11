@@ -25,6 +25,7 @@
       "unity-ui"
       "atom-dark-syntax"
     ]
+    followSymlinks: false
   "spell-check":
     grammars: [
       "text.plain"
@@ -53,3 +54,6 @@
   "omnisharp-atom":
     enhancedHighlighting: true
     useLeftLabelColumnForSuggestions: true
+  "go-plus":
+    goPath: "/Users/holman/Code/go"
+
