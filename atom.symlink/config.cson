@@ -1,7 +1,7 @@
 "*":
   editor:
     fontFamily: "Menlo"
-    fontSize: 12
+    fontSize: 10
     showIndentGuide: true
     tabLength: 4
     invisibles: {}
@@ -19,9 +19,7 @@
       "background-tips"
       "exception-reporting"
       "metrics"
-      "linter-tidy"
-      "linter"
-      "merge-conflicts"
+      "omnisharp-atom"
     ]
     themes: [
       "unity-ui"
@@ -51,3 +49,7 @@
   "atom-beautify":
     _analyticsUserId: "6fe7c5c7-8c61-4c6c-ac3b-a4bd3fe33475"
   "terminal-status": {}
+  "autocomplete-plus": {}
+  "omnisharp-atom":
+    enhancedHighlighting: true
+    useLeftLabelColumnForSuggestions: true
