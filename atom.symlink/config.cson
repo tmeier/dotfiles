@@ -1,11 +1,18 @@
 "*":
-  editor:
-    fontFamily: "Menlo"
-    fontSize: 10
-    showIndentGuide: true
-    tabLength: 4
-    invisibles: {}
+  "atom-beautify":
+    _analyticsUserId: "6fe7c5c7-8c61-4c6c-ac3b-a4bd3fe33475"
+    general:
+      _analyticsUserId: "6029e92a-a236-4b9d-b600-6696ceea8fee"
+  "autocomplete-plus": {}
   core:
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+      "omnisharp-atom"
+    ]
+    excludeVcsIgnoredPaths: false
+    followSymlinks: false
     ignoredNames: [
       ".bundle"
       ".git"
@@ -14,46 +21,41 @@
       "tmp"
       "vendor"
     ]
-    excludeVcsIgnoredPaths: false
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-      "omnisharp-atom"
-    ]
+    telemetryConsent: "no"
     themes: [
       "unity-ui"
       "atom-dark-syntax"
     ]
-    followSymlinks: false
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 12
+    invisibles: {}
+    showIndentGuide: true
+    tabLength: 4
+  "go-plus":
+    goPath: "/Users/holman/Code/go"
+  linter:
+    lintOnChange: false
+    lintOnEditorFocus: false
+    lintOnSave: false
+    showErrorInline: false
+    showGutters: false
+    showHighlighting: false
+  "linter-tidy":
+    tidyExecutablePath: "usr/bin/tidy"
+  "omnisharp-atom":
+    enhancedHighlighting: true
+    useLeftLabelColumnForSuggestions: true
+  "release-notes":
+    viewedVersion: "0.89.0"
+  "remote-edit":
+    showHiddenFiles: true
   "spell-check":
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
     ]
+  "terminal-status": {}
   welcome:
     showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "remote-edit":
-    showHiddenFiles: true
-  linter:
-    lintOnSave: false
-    lintOnChange: false
-    lintOnEditorFocus: false
-    showHighlighting: false
-    showGutters: false
-    showErrorInline: false
-  "linter-tidy":
-    tidyExecutablePath: "usr/bin/tidy"
-  "atom-beautify":
-    _analyticsUserId: "6fe7c5c7-8c61-4c6c-ac3b-a4bd3fe33475"
-  "terminal-status": {}
-  "autocomplete-plus": {}
-  "omnisharp-atom":
-    enhancedHighlighting: true
-    useLeftLabelColumnForSuggestions: true
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
-
